@@ -5,9 +5,11 @@ _termux.sh_ is setup shell script to install and setup various packages in termu
 
 # Usage
 	`bash termux.sh <ARGUMENT>`
+**NOTE**: Avoid using `bash termux.sh all` option, due to some bug, we have to run this command multiple times to get all the stuff installed and configured. I would suggest installing using individual options instead of `all` right now.
 
 ## Help
 	`bash termux.sh help`
+
 
 
 # List of Arguments

@@ -59,7 +59,7 @@ fi
 
 #VIM
 if [[ "$*" =~ vim || "$*" =~ all ]]; then
-	pkg install -y vim-python
+	pkg install -y vim
 	touch ~/.vimrc
 	{
 		echo '"PREFERENCES'
@@ -233,6 +233,7 @@ fi
 #OH-MY-ZSH
 if [[ "$*" =~ ohmyzsh || "$*" =~ all ]]; then
 	pkg install -y curl
+    pkg install -y git
 	bash -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 fi
 
