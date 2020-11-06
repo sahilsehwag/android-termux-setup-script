@@ -4,10 +4,10 @@ _termux.sh_ is setup shell script to install and setup various packages in termu
 
 
 # Usage
-	`sh termux.sh <ARGUMENT>`
+	`bash termux.sh <ARGUMENT>`
 
 ## Help
-	`sh termux.sh help`
+	`bash termux.sh help`
 
 
 # List of Arguments
